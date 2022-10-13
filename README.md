@@ -65,4 +65,10 @@ and he/she can access all pages
 ### Technology used
 for frontend :Next js with bootstrap
 
-for backend (api) : django /rest framework  
+for backend (api) : django /rest framework 
+
+### **Api data example** 
+for users     
+![view](/pic/api2.png "11")
+for packages
+![view](/pic/api1.png "10")
