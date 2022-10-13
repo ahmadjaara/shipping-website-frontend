@@ -61,7 +61,7 @@ and he/she can access all pages and each user can show only his/her packages
 ![view](/pic/homel.png "9")
 ![add](/pic/addl.png "7")
 ![view](/pic/viewl.png "8")
-here user2 just have 4 packages 
+here **user8** just have 4 packages 
 ![view](/pic/user2.png "12")
 
 ### Technology used
