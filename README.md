@@ -56,11 +56,13 @@ shipping is a website that users can add and view their shipping order in easy w
 
 ### After login 
 the username will show up on the navbar 
-and he/she can access all pages 
+and he/she can access all pages and each user can show only his/her packages 
 ![user](/pic/ahmad.png "6")
 ![view](/pic/homel.png "9")
 ![add](/pic/addl.png "7")
 ![view](/pic/viewl.png "8")
+here user2 just have 4 packages 
+![view](/pic/user2.png "12")
 
 ### Technology used
 for frontend :Next js with bootstrap
