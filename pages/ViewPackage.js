@@ -8,7 +8,7 @@ const ViewPackage = ({posts}) => {
     if (!userid){
         return (
           <div class="col-lg-8 mx-auto">
-          <h4 className="text-center">please login to add package</h4>
+          <h4 className="text-center">please login to View your package</h4>
           <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
           <button className="btn btn-primary"><Link href="/Login"><a className="text-light">Login</a></Link></button>
             {/* <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> */}
@@ -31,7 +31,7 @@ const ViewPackage = ({posts}) => {
                     <>
                     
                         {post.serviceship==1 | post.serviceship==2 &&
-                        <div className="card text-white bg-primary mb-3 col-md-4">
+                        <div className="card text-white bg-primary mb-4 me-2 col-md-4">
                             <h5 className="card-title">package with wieght {post.weight} kg</h5>
                             <ul>
                                 <li>carrierServiceID: {service[post.serviceship]}</li>
@@ -43,7 +43,7 @@ const ViewPackage = ({posts}) => {
                         </div>}
                         
                         {post.serviceship==3 | post.serviceship==4 &&
-                        <div className="card text-white bg-primary mb-3 col-md-4">
+                        <div className="card text-white bg-primary mb-4 me-2 col-md-4">
                             <h5 className="card-title">package with wieght {post.weight} lb</h5>
                             <ul>
                                 <li>shipmentServiceID: {service[post.serviceship]}</li>
