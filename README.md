@@ -69,8 +69,16 @@ for frontend :Next js with bootstrap
 
 for backend (api) : django /rest framework 
 
+for database: postgresql
+
+users
+![view](/pic/sqluser.png "13")
+packages
+![view](/pic/sqlpackage.png "13")
+
 ### **Api data example** 
 for users     
 ![view](/pic/api2.png "11")
+
 for packages
 ![view](/pic/api1.png "10")
